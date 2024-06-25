@@ -16,14 +16,14 @@ const HeroContent = () => {
 		<motion.div
 			initial="hidden"
 			animate="visible"
-			className="flex md:flex-row flex-col items-center justify-center md:px-20 w-full z-[20] px-12"
+			className="flex md:flex-row flex-col items-center justify-center md:px-20 w-screen z-[20] px-12"
 		>
 			<div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start text-sm md:text-base">
 				<motion.div
 					variants={slideInFromTop}
 					className="Welcome-box p-3 border border-[#7042f88b] opacity-0.9"
 				>
-					<SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />	
+					<SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
 					Welcome to My Portfolio
 				</motion.div>
 
@@ -51,22 +51,24 @@ const HeroContent = () => {
 						variants={slideInFromLeft(1)}
 						className="py-2 px-4 button-primary lg:text-lg text-center text-white cursor-pointer rounded-lg max-w-[200px] text-sm"
 					>
-						<Link href="#projects">
-						Show my work
-						</Link>
+						<Link href="#projects">Show my work</Link>
 					</motion.div>
 
 					<motion.div
 						variants={slideInFromLeft(1)}
 						className="py-2 px-4 button-primary lg:text-lg text-center text-white cursor-pointer rounded-lg max-w-[200px] text-sm"
 					>
-						<Link href="file:///C:/Users/priya/Downloads/PRIYA'S%20CV.pdf">
-						CV
-						</Link>
+						<a
+							href="https://drive.google.com/file/d/11P4xXJyWJrqs2J6UFCgXXg0gufPo1ZWh/view?usp=sharing"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							CV
+						</a>
 					</motion.div>
 				</div>
 			</div>
-			
+
 			<motion.div
 				variants={slideInFromRight(0.8)}
 				className="w-full h-full flex justify-center items-center pt-8 md:pt-0"

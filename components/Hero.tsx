@@ -4,7 +4,10 @@ import HeroContent from "./HeroContent";
 
 const Hero = () => {
 	return (
-		<div className="relative flex flex-col h-full w-full pb-20 pt-32" id="about">
+		<div
+			className="relative flex flex-col h-full w-full pb-20 pt-32"
+			id="about"
+		>
 			<div className="max-w-7xl">
 				<Spotlight
 					className="-top-10 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -16,8 +19,7 @@ const Hero = () => {
 				/>
 				<Spotlight className="top-28 left-80 h-[80vh] w-[50vw]" fill="indigo" />
 			</div>
-			
-				<HeroContent />
+			<HeroContent />
 		</div>
 	);
 };

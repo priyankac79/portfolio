@@ -60,7 +60,9 @@ const HeroContent = () => {
 						variants={slideInFromLeft(1)}
 						className="py-2 px-4 button-primary lg:text-lg text-center text-white cursor-pointer rounded-lg max-w-[200px] text-sm"
 					>
+						<Link href="file:///C:/Users/priya/Downloads/PRIYA'S%20CV.pdf">
 						CV
+						</Link>
 					</motion.div>
 				</div>
 			</div>

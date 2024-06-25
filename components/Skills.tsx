@@ -8,7 +8,7 @@ const Skills = () => {
 	return (
 		<section
 			id="skills"
-			className="flex flex-col items-center justify-center gap-4 h-screen relative overflow-hidden pb-12"
+			className="flex flex-col items-center justify-center gap-4 h-full md:h-screen relative overflow-hidden pb-12"
 			style={{ transform: "scale(0.9)" }}
 		>
 			<div className="text-center mx-auto text-3xl md:text-4xl lg:text-6xl mb-20">

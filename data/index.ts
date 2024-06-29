@@ -97,18 +97,18 @@ export const projects = [
 	{
 		id: 2,
 		title: "Free Prompt Mastery - Creative Learning Platform",
-		des: "Dive into a curated collection of daily, weekly, and themed prompts designed to spark inspiration across various creative disciplines.",
+		des: "Dive into a curated collection of daily, weekly, and themed prompts designed to spark inspiration.",
 		img: "/p2.jpg",
 		iconLists: ["/re.svg", "/css.png"],
 		link: "https://freepromptmastery.netlify.app/",
 	},
 	{
 		id: 3,
-		title: "Skilled e-Learning Landing Page",
-		des: "Seamlessly engaging learners with intuitive design and streamlined functionality",
-		img: "/p3.png",
+		title: "UnsplashPix - API-Powered PixelStock",
+		des: "Explore an extensive collection of high-quality, royalty-free images powered by robust API integration.",
+		img: "/p3.jpg",
 		iconLists: ["/html.png", "/css.png"],
-		link: "https://skilled-learn.netlify.app/",
+		link: "https://unsplash-pix.netlify.app/",
 	},
 	{
 		id: 4,

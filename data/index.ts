@@ -35,12 +35,6 @@ export const Frontend_skill = [
 		width: 80,
 		height: 80,
 	},
-	{
-		skill_name: "Type Script",
-		Image: "/ts.png",
-		width: 75,
-		height: 75,
-	},
 ];
 
 export const Backend_skill = [
@@ -49,12 +43,6 @@ export const Backend_skill = [
 		Image: "/mongodb.png",
 		width: 50,
 		height: 50,
-	},
-	{
-		skill_name: "Postger SQL",
-		Image: "/postger.png",
-		width: 70,
-		height: 70,
 	},
 	{
 		skill_name: "My SQL",
@@ -107,7 +95,7 @@ export const projects = [
 		title: "UnsplashPix - API-Powered PixelStock",
 		des: "Explore an extensive collection of high-quality, royalty-free images powered by robust API integration.",
 		img: "/p3.jpg",
-		iconLists: ["/html.png", "/css.png"],
+		iconLists: ["/html.png", "/css.png", "/js.png"],
 		link: "https://unsplash-pix.netlify.app/",
 	},
 	{
@@ -116,7 +104,7 @@ export const projects = [
 		des: "Designo offers a sleek and user-friendly multi-page website design service, tailored to enhance your online presence.",
 		img: "/p4.jpg",
 		iconLists: ["/re.svg", "/tail.svg"],
-		link: "https://google.com/",
+		link: "https://priyankac79.github.io/designo-website/",
 	},
 ];
 

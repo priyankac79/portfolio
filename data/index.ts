@@ -51,8 +51,8 @@ export const Backend_skill = [
 		height: 70,
 	},
 	{
-		skill_name: "Prisma",
-		Image: "/prisma.webp",
+		skill_name: "Git / GitHub",
+		Image: "/gitwhite.png",
 		width: 70,
 		height: 70,
 	},

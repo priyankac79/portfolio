@@ -76,11 +76,11 @@ export const Other_skill = [
 export const projects = [
 	{
 		id: 1,
-		title: "IllumiFrame - Shop Stylish Illuminated Frames Online",
-		des: "A fully functional e-commerce platform where you can explore and purchase exquisite illuminated picture frames.",
-		img: "/p1.png",
-		iconLists: ["/next-2.svg", "/tail.svg", "/ts.svg", "/prisma.webp"],
-		link: "https://google.com",
+		title: "FashionFrenzy - Your Stylish E-Commerce Destination ",
+		des: "A fully functional e-commerce platform where you can explore and purchase stylish and trendy fashion and accessories.",
+		img: "/p5.jpg",
+		iconLists: ["/next-2.svg", "/tail.svg", "/ts.svg"],
+		link: "https://fashion-frezny-website.vercel.app/",
 	},
 	{
 		id: 2,

@@ -54,7 +54,7 @@ const HeroContent = () => {
 						<Link href="#projects">Show my work</Link>
 					</motion.div>
 
-					<motion.div
+					{/* <motion.div
 						variants={slideInFromLeft(1)}
 						className="py-2 px-4 button-primary lg:text-lg text-center text-white cursor-pointer rounded-lg max-w-[200px] text-sm"
 					>
@@ -65,7 +65,7 @@ const HeroContent = () => {
 						>
 							CV
 						</a>
-					</motion.div>
+					</motion.div> */}
 				</div>
 			</div>
 

@@ -112,9 +112,11 @@ export const socialMedia = [
 	{
 		id: 1,
 		img: "/git.svg",
+		link: "https://github.com/priyankac79"
 	},
 	{
 		id: 2,
 		img: "/link.svg",
+		link: "https://www.linkedin.com/in/priyanka-b-chikhale/"
 	},
 ];
